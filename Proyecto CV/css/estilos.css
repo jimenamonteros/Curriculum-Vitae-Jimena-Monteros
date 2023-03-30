@@ -1,0 +1,109 @@
+/* Estilos generales */
+html{
+    scroll-behavior: smooth;
+}
+header {
+    padding: 2rem;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/imagen/backofi.jpg);
+    background-size: cover;
+    background-position: fixed;
+    color: white;
+}
+header section {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+header img {
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 540px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+*{box-sizing: border-box;}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'GFS Didot', serif;
+}
+
+body {font-family: 'Roboto', sans-serif;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    padding: 1rem;
+    text-align: left;
+    font-size: 2rem;    
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+span{
+      padding: 1rem;
+      text align: center;
+      font-size: 1.5rem;
+
+}
+
+li{
+    font-size: 1.25 rem;
+}
+
+i{
+    font-size: 3rem;
+    color: rgb(228, 204, 204);   
+    margin-left: 1.5rem;
+    margin-right: 1.5rem; 
+}
+
+hr{
+    width: 100%;
+    align-self: center;
+    color: rgb(23, 11, 88);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.fab {
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 5px;
+    text-align: center;
+    color: white
+}
+
+a .fab {
+    color: white;
+}
+
+/*contacto*/
+
+footer{
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(19, 19, 105);
+}
